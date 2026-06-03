@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Adoption CTA</title>
+
+<style>
+/* Import modern, readable font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+/* Reset default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center CTA section on page */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Main banner styling */
+.cta-banner {
+    min-height: 80vh;
+    background: linear-gradient(135deg, #0f766e, #0ea5a4, #2563eb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    color: white;
+}
+
+/* Content container */
+.cta-content {
+    max-width: 750px;
+}
+
+/* Main heading */
+.cta-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+/* Supporting description */
+.cta-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+    opacity: 0.95;
+}
+
+/* Eye-catching CTA button */
+.cta-button {
+    display: inline-block;
+    background-color: #facc15;
+    color: #0f172a;
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Button hover effect */
+.cta-button:hover {
+    background-color: #fde047;
+    transform: translateY(-3px);
+}
+</style>
+</head>
+<body>
+
+<section class="cta-banner">
+    <div class="cta-content">
+        <h1>Open Your Heart. Foster a Rescue Pet Today.</h1>
+        <p>
+            Every foster home gives a rescue animal a second chance. By providing
+            temporary care, you help pets feel safe, loved, and ready to find
+            their forever families.
+        </p>
+        <a href="#" class="cta-button">Become a Foster Hero</a>
+    </div>
+</section>
+
+</body>
+</html>
